@@ -23,7 +23,7 @@ app.listen(PORT, () => {
     console.log(`Server started at port no. ${PORT}`)
 })
 // const mongoose=require('mongoose')
-const DB='mongodb+srv://Jeevitha:jeevitha@cluster0.0rkh96c.mongodb.net/'  
+const DB='mongodb_atlas_db_uri_with_credentials'  
 mongoose.connect(DB,{
     useNewUrlParser:true,
     
